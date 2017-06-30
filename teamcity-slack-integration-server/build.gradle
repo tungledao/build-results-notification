@@ -1,0 +1,55 @@
+plugins {
+  id "java"
+  id "idea"
+  id "com.github.rodm.teamcity-server" version "0.9.1"
+}
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile 'com.google.code.gson:gson:1.7.1'
+}
+
+version = '1.1'
+
+ext {
+  teamCityDir = project.findProperty('teamcity.dir') ?: "${System.getProperty('user.home')}/TeamCity"
+  downloadsDir = project.findProperty('teamcity.downloads.dir') ?: "$teamCityDir/downloads"
+  serversDir = project.findProperty('teamcity.servers.dir') ?: "$teamCityDir/servers"
+  dataDir = project.findProperty('teamcity.data.dir') ?: "$teamCityDir/data"
+}
+
+teamcity {
+  // TeamCity API version
+  version = '9.1.6'
+
+  server {
+    descriptor {
+      // required properties
+      name = project.name
+      displayName = 'Slack'
+      version = project.version
+      vendorName = 'JetBrains, s.r.o.'
+
+      // optional properties
+      description = 'Post messages to your Slack instance for build events.'
+      email = 'developers@enlivenhq.com'
+      useSeparateClassloader = true
+    }
+
+    downloadsDir = project.downloadsDir
+    baseHomeDir = project.serversDir
+    baseDataDir = project.dataDir
+
+    environments {
+      teamcity9 {
+	version = "9.1.7"
+      }
+      teamcity10 {
+	version = "10.0.1"
+      }
+    }
+  }
+}

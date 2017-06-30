@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="157" started-at="2017-06-29T07:50:47Z" finished-at="2017-06-29T07:50:47Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="157" started-at="2017-06-29T07:50:47Z" finished-at="2017-06-29T07:50:47Z">
+      <class name="com.enlivenhq.slack.SlackWrapperTest">
+        <test-method status="PASS" signature="testSlackWrapperDoesNotUseAttachmentWhenToldSo()[pri:0, instance:com.enlivenhq.slack.SlackWrapperTest@6276ae34]" name="testSlackWrapperDoesNotUseAttachmentWhenToldSo" duration-ms="99" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackWrapperDoesNotUseAttachmentWhenToldSo -->
+        <test-method status="PASS" signature="testSlackWrapperUsesAttachmentByDefault()[pri:0, instance:com.enlivenhq.slack.SlackWrapperTest@6276ae34]" name="testSlackWrapperUsesAttachmentByDefault" duration-ms="6" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackWrapperUsesAttachmentByDefault -->
+      </class> <!-- com.enlivenhq.slack.SlackWrapperTest -->
+      <class name="com.enlivenhq.teamcity.SlackPayloadTest">
+        <test-method status="PASS" signature="testSlackPayloadBranchEscapeLtGt()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="testSlackPayloadBranchEscapeLtGt" duration-ms="22" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackPayloadBranchEscapeLtGt -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSlackPayloadBtIdEscapeLtGt()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="testSlackPayloadBtIdEscapeLtGt" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackPayloadBtIdEscapeLtGt -->
+        <test-method status="PASS" signature="testSlackPayloadBuildEscapeLtGt()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="testSlackPayloadBuildEscapeLtGt" duration-ms="1" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackPayloadBuildEscapeLtGt -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSlackPayloadDoesNotRequiresUserAndChannel()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="testSlackPayloadDoesNotRequiresUserAndChannel" duration-ms="1" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackPayloadDoesNotRequiresUserAndChannel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSlackPayloadIsUpdatedWithChannel()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="testSlackPayloadIsUpdatedWithChannel" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackPayloadIsUpdatedWithChannel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSlackPayloadIsUpdatedWithUsername()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="testSlackPayloadIsUpdatedWithUsername" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackPayloadIsUpdatedWithUsername -->
+        <test-method status="PASS" signature="testSlackPayloadProjectEscapeLtGt()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="testSlackPayloadProjectEscapeLtGt" duration-ms="1" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackPayloadProjectEscapeLtGt -->
+        <test-method status="PASS" signature="testSlackPayloadStatusEscapeNewline()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="testSlackPayloadStatusEscapeNewline" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackPayloadStatusEscapeNewline -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSlackPayloadStatusTextEscapeLtGt()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="testSlackPayloadStatusTextEscapeLtGt" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackPayloadStatusTextEscapeLtGt -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSlackPayloadUsesAttachmentByDefault()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="testSlackPayloadUsesAttachmentByDefault" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackPayloadUsesAttachmentByDefault -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSlackPayloadWithoutAttachment()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="testSlackPayloadWithoutAttachment" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSlackPayloadWithoutAttachment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enlivenhq.teamcity.SlackPayloadTest@7c0e2abd]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-29T14:50:47Z" finished-at="2017-06-29T14:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.enlivenhq.teamcity.SlackPayloadTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

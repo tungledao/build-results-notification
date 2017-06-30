@@ -1,0 +1,7 @@
+com\enlivenhq\teamcity\SlackPayload.class
+com\enlivenhq\teamcity\AppServer.class
+com\enlivenhq\teamcity\SlackPayload$AttachmentField.class
+com\enlivenhq\teamcity\SlackPayload$1.class
+com\enlivenhq\slack\SlackWrapper.class
+com\enlivenhq\teamcity\SlackPayload$Attachment.class
+com\enlivenhq\teamcity\SlackNotificator.class
