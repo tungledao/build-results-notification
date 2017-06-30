@@ -1,4 +1,4 @@
-# teamcity-slack
+# build-results-notification
 [![Build Status](https://teamcity.jetbrains.com/app/rest/builds/buildType:(id:TeamCityThirdPartyPlugins_TeamcitySlackNotifications_Build)/statusIcon.svg)](https://teamcity.jetbrains.com/viewType.html?buildTypeId=TeamCityThirdPartyPlugins_TeamcitySlackNotifications_Build)
 
 A configurable TeamCity plugin that notifies your [Slack](https://slack.com) channel.
